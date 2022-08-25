@@ -6,7 +6,7 @@ namespace TypewiseAlert.Common
     {
         public static void LogMessage(string msgToLogged)
         {
-            Console.WriteLine(msgToLogged);
+            Console.WriteLine($"{msgToLogged}");
         }
     }
 }
